@@ -9,7 +9,7 @@ a{
   text-decoration: none;
 }
 .jumbotron{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("hero-bg.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("img/hero-bg.JPG");
     color: white;
     background-position: center;
     background-repeat: no-repeat;
