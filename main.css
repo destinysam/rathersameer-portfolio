@@ -15,7 +15,9 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.navbar-brand{
+  font-style: italic;
+}
 .nav-item{
   margin: 10px;
   font-size: 18px;
