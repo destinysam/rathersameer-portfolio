@@ -15,18 +15,14 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width: 600px) {
-  .jumbotron{
-      height: 200vh;
-  }
-}  
+
 .nav-item{
   margin: 10px;
   font-size: 18px;
 }
 #hero-text{
     margin-top: 220px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 /* HERO TEXT ANIMATION*/
 .tracking-in-contract {
@@ -80,13 +76,13 @@ a{
 #arrow:hover{
   transform: scale(1.5); 
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .page-section{
     scroll-margin-top: 80px;
     height: 600px;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .project-section{
     scroll-margin-top: 80px;
     height: 900px;
@@ -98,10 +94,16 @@ a{
     width: 30%;
   }
   .page-section{
-    margin-top: 2rem;
+    scroll-margin-top: 80px;
   }
   #hero-text{
     margin-top: 280px;
+  }
+  .top-img{
+    width: 400px;
+  }
+  .card{
+    width: 400px;
   }
 }
 .page-section{
@@ -118,7 +120,7 @@ div .language-icon{
 }
 .top-img{
   height: 200px;
-  width: 348px;
+  width: 350px;
   overflow: hidden;
 }
 .card-img-top{
