@@ -21,8 +21,7 @@ a{
   font-size: 18px;
 }
 #hero-text{
-    margin-top: 220px;
-    margin-bottom: 150px;
+    margin-top: 240px;
 }
 /* HERO TEXT ANIMATION*/
 .tracking-in-contract {
@@ -76,20 +75,20 @@ a{
 #arrow:hover{
   transform: scale(1.5); 
 }
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   .page-section{
     scroll-margin-top: 80px;
     height: 600px;
   }
 }
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   .project-section{
     scroll-margin-top: 80px;
     height: 900px;
     margin-bottom: 10rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (min-width:300px) and (max-width: 600px) {
   .verticalLine{
     width: 30%;
   }
@@ -98,6 +97,7 @@ a{
   }
   #hero-text{
     margin-top: 280px;
+    margin-bottom: 150px;
   }
   .top-img{
     width: 400px;
@@ -117,6 +117,9 @@ div .language-icon:hover{
 }
 div .language-icon{
   transition: 0.5s;
+}
+.card{
+  width: 350px;
 }
 .top-img{
   height: 200px;
