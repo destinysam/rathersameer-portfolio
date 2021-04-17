@@ -88,31 +88,6 @@ a{
     margin-bottom: 10rem;
   }
 }
-@media  screen and (max-device-width: 480px) {
-  .verticalLine{
-    width: 30%;
-  }
-@media  screen and (max-device-width: 480px){
-    .page-section{
-      scroll-margin-top: 80px;
-    }
-}  
-@media  screen and (max-device-width: 480px){
-    .top-img{
-      width: 400px;
-    }
-}  
-@media screen  and (max-device-width:480px){
-  .card{
-    width: 400px;
-  }
-}  
-@media screen and (max-device-width:480px){
-  #hero-text{
-    margin-top: 280px;
-    margin-bottom: 150px;
-  }
-}
 .page-section{
   overflow: hidden;
 }
@@ -159,3 +134,20 @@ div .language-icon{
 #developer:hover{
   color: white;
 }
+@media  screen and (max-device-width: 480px) {
+  .verticalLine{
+    width: 30%;
+  }
+  .page-section{
+    scroll-margin-top: 80px;
+  }
+  .top-img{
+    width: 400px;
+  }
+  .card{
+    width: 400px;
+  }
+  #hero-text{
+    margin-top: 280px;
+    margin-bottom: 150px;
+  }
