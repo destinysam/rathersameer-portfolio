@@ -17,7 +17,7 @@ a{
 }
 @media screen and (max-width: 600px) {
   .jumbotron{
-      height: 100vh;
+      height: 200vh;
   }
 }  
 .nav-item{
@@ -26,6 +26,7 @@ a{
 }
 #hero-text{
     margin-top: 220px;
+    margin-bottom: 100px;
 }
 /* HERO TEXT ANIMATION*/
 .tracking-in-contract {
