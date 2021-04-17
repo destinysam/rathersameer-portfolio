@@ -142,7 +142,8 @@ div .language-icon{
     scroll-margin-top: 80px;
   }
   .top-img{
-    width: 390x;
+    width: 400px;
+    overflow: hidden;
   }
   .card{
     width: 400px;
