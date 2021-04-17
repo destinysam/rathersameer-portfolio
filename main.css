@@ -20,10 +20,6 @@ a{
       height: 100vh;
   }
 }  
-.active{
-  background-color:rgb(141, 148, 141);
-  padding: 5px;
-}
 .nav-item{
   margin: 10px;
   font-size: 18px;
@@ -102,6 +98,9 @@ a{
   }
   .page-section{
     margin-top: 2rem;
+  }
+  #hero-text{
+    margin-top: 280px;
   }
 }
 .page-section{
