@@ -104,12 +104,13 @@ div .language-icon{
   width: 350px;
 }
 .top-img{
-  height: 200px;
-  width: 350px;
   overflow: hidden;
+  width: 350px;
+  height: 200px;
 }
 .card-img-top{
   transition: 0.5s;
+  width: 350px;
 }
 .card-img-top:hover{
   transform: scale(1.5);
@@ -141,7 +142,7 @@ div .language-icon{
   .page-section{
     scroll-margin-top: 80px;
   }
-  .top-img{
+  .card-img-top{
     width: 400px;
     overflow: hidden;
   }
