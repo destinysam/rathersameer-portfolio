@@ -9,7 +9,7 @@ a{
   text-decoration: none;
 }
 .jumbotron{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("img/hero-bg.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("img/hero-bg.webp");
     color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,6 +93,9 @@ a{
 .page-section{
   overflow: hidden;
 }
+.sections{
+  overflow:hidden;
+ }
 .language-text, .svg-inline--fa{
   color:rgb(105,105,105); 
 }
@@ -138,7 +141,7 @@ div .language-icon{
   .verticalLine{
     width: 30%;
   }
-  .page-section{
+  .sections{
     scroll-margin-top: 80px;
   }
   .card{
@@ -148,3 +151,9 @@ div .language-icon{
     margin-top: 280px;
     margin-bottom: 150px;
   }
+}  
+@media only screen and (min-width:480px) and (max-width:850px){
+  .card{
+    width: 300px;
+  }
+}
