@@ -1,265 +1,701 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Designer | Developer from kashmir,Pursuing IMCA at cluster university of srinagar">
-    <title>Rather Sameer's-Portfolio</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicons/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- devicon icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <title>Sameer Rather | Portfolio</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/developer.png"> </a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item ">
-              <a class="nav-link active" href="#home">Home</a>
+    <div id="particles-js"></div>
+    <!-- navbar start -->
+    <div class="container mb-5">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/images/favicons/android-chrome-192x192.png" alt="" height="60" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work-history">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+    <!-- hero section start  -->
+    <div class="main-container container offset" id="home">
+      <div class="row main_row mt-5">
+        <div class="col-8">
+          <h2 class="text-white">Hyy, I'm</h2>
+          <h1 class="text-warning m-heading">Sameer Rather</h1>
+          <h2 class="text-white text-center">
+            <span
+              class="txt-rotate"
+              data-period="1000"
+              data-rotate='[ "Developer.","Programmer."]'
+            ></span>
+          </h2>
+          <br>
+          <div class="row">
+             <div class="col-md-6">
+              <p class="text-white text-uppercase">Best Skills On</p>
+              <ul class="home-sections-icons">
+                
+                <li><svg viewBox="0 0 128 128">
+                  <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"></stop><stop offset="1" stop-color="#306998"></stop></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"></stop><stop offset="1" stop-color="#FFE873"></stop></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"></path><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"></path><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop><stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"></path>
+                  </svg></li>
+                <li>
+                  <svg viewBox="0 0 128 128">
+                    <path fill="#003A2B" d="M126.5 83.8c0 3.8-3.1 6.9-6.9 6.9H8.4c-3.8 0-6.9-3.1-6.9-6.9V44.2c0-3.8 3.1-6.9 6.9-6.9h111.2c3.8 0 6.9 3.1 6.9 6.9v39.6z"></path><path fill="#fff" d="M23 45.6h6V73c-3 .6-5.3.8-7.7.8-7.2 0-11-3.3-11-9.5 0-6 4-10 10.2-10 1 0 1.7.1 2.6.3v-9H23zm0 13.8c-.7-.2-1.3-.3-2-.3-3 0-4.7 1.8-4.7 5.1 0 3.2 1.7 4.9 4.7 4.9.7 0 1.2 0 2-.2v-9.5zm15.4-4.6v13.7c0 4.7-.3 7-1.4 9-1 1.9-2.2 3.1-4.8 4.4l-5.5-2.6c2.6-1.2 3.9-2.3 4.7-4 .8-1.7 1.1-3.7 1.1-8.8V54.8h5.9zm-5.9-9.1h5.9v6.1h-5.9v-6.1zM42 56.1c2.6-1.2 5.1-1.8 7.8-1.8 3 0 5 .8 5.9 2.4.5.9.7 2 .7 4.5v12c-2.7.4-6 .7-8.5.7-5 0-7.2-1.7-7.2-5.6 0-4.2 3-6.1 10.2-6.7v-1.3c0-1.1-.5-1.5-2-1.5-2.2 0-4.7.6-7 1.8v-4.5h.1zm9.2 9.4c-3.9.4-5.2 1-5.2 2.5 0 1.2.7 1.7 2.3 1.7.9 0 1.7-.1 2.8-.3v-3.9h.1zm8.1-9.8c3.5-.9 6.4-1.3 9.3-1.3 3 0 5.2.7 6.5 2 1.2 1.3 1.6 2.7 1.6 5.6v11.6h-5.9V62.2c0-2.3-.8-3.1-2.9-3.1-.8 0-1.5.1-2.7.4v14.1h-5.9V55.7zM79 76.8c2.1 1.1 4.2 1.6 6.3 1.6 3.9 0 5.5-1.6 5.5-5.3V73c-1.2.6-2.3.8-3.8.8-5.2 0-8.5-3.4-8.5-8.8 0-6.7 4.9-10.5 13.5-10.5 2.5 0 4.9.3 7.7.8l-2 4.3c-1.6-.3-.1 0-1.3-.2v.6l.1 2.5v3.2c0 .8 0 1.6.1 2.4v1.6c0 5.1-.4 7.5-1.7 9.4-1.8 2.9-5 4.3-9.6 4.3-2.3 0-4.3-.3-6.4-1.2v-5.4h.1zm11.8-17.6h-.6c-1.2 0-2.5.3-3.4.8-1.4.8-2.2 2.3-2.2 4.3 0 3 1.5 4.7 4.1 4.7.8 0 1.5-.2 2.2-.4v-9.4h-.1zm18.2-4.9c5.9 0 9.5 3.7 9.5 9.8 0 6.2-3.8 10.1-9.8 10.1-5.9 0-9.6-3.7-9.6-9.7.1-6.3 3.9-10.2 9.9-10.2zm-.1 15c2.3 0 3.6-1.9 3.6-5.2 0-3.2-1.3-5.2-3.6-5.2s-3.7 1.9-3.7 5.2c.1 3.4 1.4 5.2 3.7 5.2z"></path>
+                    </svg>
+                </li>
+                <li><svg viewBox="0 0 128 128">
+                  <path fill="#F0DB4F" d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"></path>
+                  </svg></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-4 d-none d-md-block">
+          <img src="./assets/images/sameer.png" class="img-fluid rounded-circle "  alt="sameer" />
+        </div>
+      </div>
+    </div>
+    <!-- hero section end -->
+
+    <!-- About Section -->
+
+    <div id="about" class="container about p-5 offset">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/images/about.svg" class="img-fluid" />
+        </div>
+        <div class="col-md-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            Hey! i am developer and i am studying at cluster universtiy of srinagar pursuing IMCA(integreted Master's in
+            Computer Applications)
+            <b class="text-warning">
+              <a href="http://www.cusrinagar.edu.in" target="_blank"
+                >Cluster University</a
+              ></b
+            >, I have experinced many programming languages like c++, python, javascript etc.But i have expertise myself in python.I have started programming 4 years ago. I am passionate to learn new skills and i love developing new things.I spend most of my time writing scripts that show that I'm serious and have initiative. I 'm also developing static websites with technologies html5,css3,bootstrap,jquery. I want to be able to show that I have something other than schooling. I realize that working on my own projects doesn't give me teamwork experience, and also removes a lot of variables compared to a professional field (creating code for someone else instead of my requirements, code maintainability, etc), but I'm going to do whatever I can make myself competitive.
+          </p>
+          <a href="https://drive.google.com/file/d/10rd5x6ksYDuiqKuJL8GckqOyNyqL24qR/view?usp=sharing" download="" class="btn btn-outline-warning">Download Resume</a>
+        </div>
+      </div>
+    </div>
+    <!-- end about section -->
+
+    <!-- skills section -->
+    <div class="skills container mt-5 pt-5 offset" id="skills">
+      <h1 class="text-warning mb-3 pb-2">My Skills</h1>
+      <div class="row">
+        <div class="col-md-3 skills-title">
+          <ul>
+            <li data-li="frontend" class="active">
+              <p class="full-text">Frontend Development</p>
+              <p class="short-text">Frontend</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+            <li data-li="backend">
+              <p class="full-text">Backend Development</p>
+              <p class="short-text">Backend</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+            <li data-li="languages">
+              <p class="full-text">Programming Languages</p>
+              <p class="short-text">Languages</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+            <li data-li="additionals">
+              <p class="full-text">Additionals</p>
+              <p class="short-text">Additionals</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+            <li data-li="database">
+              <p class="full-text">Database</p>
+              <p class="short-text">Database</p>
             </li>
+            
           </ul>
         </div>
-      </div>
-    </nav>
-    <section id="home" class="home-section sections">
-      <div class="jumbotron jumbotron-fluid img-fluid" id="page-">
-        <div class="container text-center" id="hero-text">
-            <h2 class="display-4 tracking-in-contract" style="font-weight: bolder;">Hyy i m Sameer</h2>
-            <div class="d-inline-block tracking-in-contract">
-              <h3>Designer</h3>
-            </div>
-            <div class="d-inline-block">
-              <h3>|</h3>
-            </div>
-            <div class="d-inline-block tracking-in-contract">
-              <h3>Developer</h3>
-            </div>
-            <div class="text-center">
-              <span class="fa-stack fa-1x">
-                <a href="#" style="color: darkslategray;" target="_blank">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <span class="fa-stack fa-1x">
-                <a href="#" style="color: darkslategray;" target="_blank">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <span class="fa-stack fa-1x">
-                <a href="#" style="color: darkslategray;" target="_blank">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-            </div>
-            <div class="d-none d-lg-block d-xl-block text-center" id="downarrow">
-               <a href="#about" style="color: rgb(105,105,105);"><span class="fa fa-arrow-down mt-4" id="arrow"></span></a>
-            </div>
-        </div> 
-      </div>  
-    </section>
-    <section id="about" class="page-section sections">
-      <div class="container">
-        <h4 class="display-4" style="font-weight: bolder;color: rgb(105,105,105);">ABOUT ME</h4>
-        <hr class="verticalLine">
-        <div class="shadow p-3 bg-white rounded" id="aboutview">
-          <div class="row ">
-           <div class="col-md-8">
-                <p>Hey! i am developer.I am studying at cluster universtiy of srinagar pursuing IMCA(integreted.<br>masters in computer application)
-                  I have experinced many  programming languages like c++,python,javascript etc.But i have expertise myself
-                in python.I have started programming 4 years ago. I am passionate to learn new skills and i love developing new things.I spend most of my time writing scripts that show that I'm serious and have initiative.
-                I 'm also developing static websites with technologies  html5,css3,bootstrap,jquery.
-                I want to be able to show that I have something other 
-                than schooling. I realize that working on my own projects 
-                doesn't give me teamwork experience, and also removes a lot of variables compared to a
-                professional field (creating code for someone else instead of my requirements, code maintainability, etc),
-                but I'm going to do whatever I can make myself competitive.<p>
-           </div>
-           <div class="col-md-4 text-center " id="aboutimage">
-             <img src="img/image.jpeg" class="img-fluid rounded-circle img-thumbnail" style="height: 250px;width: 250px;">
-           </div>
-          </div>
-        </div>
-        <div class="d-none d-lg-block d-xl-block text-center mt-4" id="downarrow2">
-          <a href="#skills" style="color: rgb(105,105,105);" ><span class="fa fa-arrow-down" id="arrow"></span></a>
-       </div>
-      </div>
-    </section>
-    <section id="skills" class="page-section sections">
-      <div class="container" >
-        <div class="row">
-          <div class="col-md-12">
-            <h4 class="display-4" style="font-weight: bolder;color: rgb(105,105,105);">SKILLS</h4>
-            <hr class="verticalLine">
-            <div class="text-center">
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="python" class="svg-inline--fa fa-python fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"></path></svg>
-                <h5 class="mt-2 language-text">Python</h5> 
+        <div class="col-md-9">
+          <div class="item frontend">
+            <div class="row text-center">
+              <div class="col-6 col-md-3">
+                <i class="devicon-html5-plain icon"></i>
+                <p>HTML</p>
               </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="js" class="svg-inline--fa fa-js fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"></path></svg>
-                <h5 class="mt-2 language-text">JavaScript</h5>
+              <div class="col-6  col-md-3">
+                <i class="devicon-css3-plain icon"></i>
+                <p>CSS</p>
               </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="html5" class="svg-inline--fa fa-html5 fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg>
-                <h5 class="mt-2 language-text">HTML</h5>                 
+              <div class="col-6  col-md-3">
+                <i class="devicon-javascript-plain icon"></i>
+                <p>JavaScript</p>
               </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="css3-alt" class="svg-inline--fa fa-css3-alt fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"></path></svg>
-                <h5 class="mt-2 language-text">CSS</h5>
+              <div class="col-6  col-md-3">
+                <i class="devicon-bootstrap-plain icon"></i>
+                <p>Bootstrap</p>
               </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="bootstrap" class="svg-inline--fa fa-bootstrap fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M292.3 311.93c0 42.41-39.72 41.43-43.92 41.43h-80.89v-81.69h80.89c42.56 0 43.92 31.9 43.92 40.26zm-50.15-73.13c.67 0 38.44 1 38.44-36.31 0-15.52-3.51-35.87-38.44-35.87h-74.66v72.18h74.66zM448 106.67v298.66A74.89 74.89 0 0 1 373.33 480H74.67A74.89 74.89 0 0 1 0 405.33V106.67A74.89 74.89 0 0 1 74.67 32h298.66A74.89 74.89 0 0 1 448 106.67zM338.05 317.86c0-21.57-6.65-58.29-49.05-67.35v-.73c22.91-9.78 37.34-28.25 37.34-55.64 0-7 2-64.78-77.6-64.78h-127v261.33c128.23 0 139.87 1.68 163.6-5.71 14.21-4.42 52.71-17.98 52.71-67.12z"></path></svg>
-                <h5 class="mt-2 language-text">Bootstrap</h5>
-              </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="git-alt" class="svg-inline--fa fa-git-alt fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
-                <h5 class="mt-2 language-text">Git</h5>
-              </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="github-square" class="svg-inline--fa fa-github-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"></path></svg>
-                <h5 class="mt-2 language-text">Github</h5>
-              </div>
-              <div class="d-inline-block text-center m-4 language-icon">
-                <svg aria-hidden="true" focusable="false" width="80" height="80" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
-                <h5 class="mt-2 language-text">Telegram Bot</h5>
+              <div class="col-6 col-md-3">
+                <i class="devicon-jquery-plain"></i>
+                <p>jQuery</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="d-none d-lg-block d-xl-block text-center mt-4" id="downarrow2">
-          <a href="#projects" style="color: rgb(105,105,105);"><span class="fa fa-arrow-down" id="arrow"></span></a>
-       </div>
-      </div>
-    </section>
-    <section id="projects" class="project-section sections">
-      <div class="container">
-        <h4 class="display-4" style="font-weight: bolder;color: rgb(105,105,105);">Projects</h4>
-        <hr class=" text-muted verticalLine">
-        <div class="row">
-          <div class="card m-2" >
-            <div class="top-img">
-              <img class="card-img-top" src="img/kashblog.jpg" alt="kashblog">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">KashBlog</h4>
-              <p class="card-text">KashBlog is web App which offers to share the ideas or knowledge with others.</p>
-              <a type="button" class="btn btn-secondary" href="http://destinysam.pythonanywhere.com/" target="_blank" >Check Now</a>
+          <div class="item backend" style="display: none">
+            <div class="row text-center">
+              <div class="col-6 col-md-3">
+                <i class="devicon-django-plain-wordmark icon"></i>
+                <p>Django</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-flask-original icon"></i>
+                <p>Flask</p>
+              </div>
             </div>
           </div>
-          <div class="card m-2">
-            <div class="top-img">
-              <img class="card-img-top" src="img/p2a.jpg" alt="pdftoaudio">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">P2A</h4>
-              <p class="card-text">P2A is web App which converts your pdf's into listenable files.</p>
-              <a type="button" class="btn btn-secondary" href="http://rathersameer.pythonanywhere.com/" target="_blank">Check Now</a>
-            </div>
-          </div>
-          <div class="card m-2">
-            <div class="top-img">
-              <img class="card-img-top" src="img/kashnews.jpg" alt="kashnews">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">KashNews</h4>
-              <p class="card-text">KashNews is web App which shows latest news all over the world.it also offers categorized news.</p>
-              <a type="button" class="btn btn-secondary" href="http://kashnews.herokuapp.com/" target="_blank">Check Now</a>
-            </div>
-          </div>
-          <div class="card m-2">
-            <div class="top-img">
-              <img class="card-img-top" src="img/wordguessinggame.jpg" alt="wordguessinggame">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">WordGuessingGame</h4>
-              <p class="card-text">WordGuessingGame is web App Game where you can build different words.</p>
-              <a type="button" class="btn btn-secondary" href="#">Check Now</a>
+          <div class="item languages" style="display: none">
+            <div class="row text-center">
+              <div class="col-6 col-md-3">
+                <i class="devicon-python-plain icon"></i>
+                <p>Python</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-javascript-plain icon"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-c-plain-wordmark icon"></i>
+                <p>C</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-cplusplus-plain-wordmark icon"></i>
+                <p>C++</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="d-none d-lg-block d-xl-block text-center mt-4" id="downarrow2">
-          <a href="#contact" style="color: rgb(105,105,105);"><span class="fa fa-arrow-down" id="arrow"></span></a>
-       </div>
-      </div>
-    </section>
-    <section id="contact" class="page-section sections" style="background-color: #f8f9fa;">
-      <div class="container">
-        <h4 class="display-4" style="font-weight: bolder;color: rgb(105,105,105);">Contact</h4>
-        <hr class=" text-muted verticalLine">
-        <div class="row justify-content-center">
-            <div class=" d-inline-block col-md-6 col-lg-3 shadow p-5 m-2  bg-white rounded  text-center">
-              <span class="fa-stack fa-2x">
-                <a href="#" style="color: darkslategray;">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <h4 style="font-weight:bolder;">Location</h4>
-              <p>Tarigam,Kulgam</p>
+          <div class="item additionals" style="display: none">
+            <div class="row text-center">
+              <div class="col-6 col-md-3">
+                <i class="devicon-git-plain icon"></i>
+                <p>Git</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-github-original icon"></i>
+                <p>Github</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-bitbucket-original icon"></i>
+                <p>BitBucket</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-jira-plain icon"></i>
+                <p>Jira</p>
+              </div>
+             
+              <div class="col-6 col-md-3">
+                <i class="devicon-linux-plain icon"></i>
+                <p>Linux</p>
+              </div>
+             
             </div>
-            <div class="d-inline-block shadow col-md-6 col-lg-3 p-5 m-2 bg-white rounded  text-center">
-              <span class="fa-stack fa-2x">
-                <a href="#" style="color: darkslategray;">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <h4 style="font-weight:bolder;">Phone</h4>
-              <a href="6005840594" style="color: #212529;text-decoration: none;">+91-6005840594</a>
-            </div>
-            <div class="d-inline-block col-md-6 col-lg-3 shadow p-5 m-2 bg-white rounded  text-center">
-              <span class="fa-stack fa-2x">
-                <a href="#" style="color:darkslategray; ">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <h4 style="font-weight:bolder;">Email</h3>
-              <a href="mailto:sams44802@gmail.com" style="color: #212529;text-decoration: none;">sams44802@gmail.com</a>
-            </div>
-            <div class="d-inline-block col-md-6 col-lg-3 shadow p-5 m-2 bg-white rounded  text-center">
-              <span class="fa-stack fa-2x">
-                <a href="#" style="color: darkslategray;">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
-                </a>
-              </span>
-              <h4 style="font-weight:bolder;">Website</h4>
-              <a href="www.rathersameer.com" style="color: #212529;text-decoration: none;">www.rathersameeer.com</a>
           </div>
-          </div>
+          <div class="item database" style="display: none">
+            <div class="row text-center">
+              <div class="col-6 col-md-3">
+                <i class="devicon-sqlalchemy-plain icon"></i>
+                <p>SqlAlchemy</p>
+              </div>
+              <div class="col-6 col-md-3">
+                <i class="devicon-postgresql-plain icon"></i>
+                <p>Postgres</p>
+              </div>
+            </div>
         </div>
       </div>
-    </section>
-    <div class="text-center p-1 bg-secondary text-white">
-      Made with
-      <svg aria-hidden="true" focusable="false" height="20" width="20" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16 mx-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:red"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
-     by <a href="mailto:sams44802@gmail.com" id="developer" target="_blank">Rather Sameer</a> | © 2021
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    <script>
-        new WOW().init(); 
-    </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- end skills section -->
+    <!-- Timeline Section -->
+    <div class="container mt-3 py-5 offset" id="work-history">
+      <h1 class="text-warning mb-3 pb-2">Work Histroy</h1>
+      <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Wooshelf pvt. ltd. india</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+                Python Developer
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                oct.2021 - Present
+              </span>
+            </div>
+            <p>
+              Working as a team leader to build and manage the team.
+              What i do as team leader:
+              <ul>
+                <li>Task Management</li>
+                <li>Issue Solving of team members</li>
+                <li>Understanding workflow of tasks to team members</li>
+                <li>Working on own tasks</li>
+                <li>CI/CD</li>
+                <li>Code review and merge</li>
+              </ul>
+            </p>
+            <ul class="content-skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>DRF Api's</li>
+            </ul>
+          </div>
+          
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-movie"></div>
+          <!-- cd-timeline-img -->
+          <div class="cd-timeline-content">
+            <h2>Freelancer</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate h-25" aria-hidden="true"></i>
+                Python Developer
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o h-25" aria-hidden="true"></i>
+                Jan.2020 - Oct.2021
+              </span>
+            </div>
+            <p>
+             Worked as a freelancer and builded some websites and web apps
+            </p>
+            <ul class="content-skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Node js</li>
+              <li>Bootstrap</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+         
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+      </section>
+    </div>
+
+    <!-- cd-timeline -->
+    <!-- Timeline Section End -->
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5 offset">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row text-center pt-4">
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+              src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+              class="card-img-top"
+              style="height: 13rem"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Kash Blog</h5>
+              <p class="card-text text-dark">
+                KashBlog is web App which offers you to share the ideas or knowledge with others.
+              </p>
+              <a href="https://destinysam.pythonanywhere.com/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+            src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+            class="card-img-top"
+            style="height: 13rem"
+            alt="..."
+          />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">P2A</h5>
+              <p class="card-text text-dark">
+                P2A is web App which converts your pdf's into listenable files.Just one tap to convert.
+              </p>
+              <a href="https://sameerrather.pythonanywhere.com/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+            src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+            class="card-img-top"
+            style="height: 13rem"
+            alt="..."
+          />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Expense Auditor</h5>
+              <p class="card-text text-dark">
+                Expense Auditor is a web app where you can add,track and control your daily expenses.
+              </p>
+              <a href="http://expenseauditor.herokuapp.com/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+            src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+            class="card-img-top"
+            style="height: 13rem"
+            alt="..."
+          />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Kash News</h5>
+              <p class="card-text text-dark">
+                Kash News is a web app which shows all over the world news in a categorized manner.
+              </p>
+              <a href="http://kashnews.herokuapp.com/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+            src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+            class="card-img-top"
+            style="height: 13rem"
+            alt="..."
+          />
+            <div class="card-body ">
+              <h5 class="card-title fw-bolder">Vehicle Rental System</h5>
+              <p class="card-text text-dark">
+                Vehicle Rental System is a platform where you can take any type of car on rent with some easy steps.
+              </p>
+              <a href="https://vehicalrentalproject.pythonanywhere.com/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <div class="card">
+            <img
+            src="https://fmlmarketing.com/wp-content/uploads/2020/04/e-commerce-website-web-design-FML-Marketing-Marbella-Alkmaar.png"
+            class="card-img-top"
+            style="height: 13rem"
+            alt="..."
+          />
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Word Guessing Game</h5>
+              <p class="card-text text-dark">
+               Word Guessing Game is a simple word building game where you can build words as many as you want.
+              </p>
+              <a href="https://wordguessinggame.netlify.app/" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end projects section -->
+    <!-- Contact form Section-->
+    <div id="contact" class="container py-5 mt-5 offset">
+      <h1 class="text-warning mb-3 pb-2">Contact</h1>
+      <div class="row">
+        <!-- <div class="col-md-6 d-flex order-2 order-md-1" style="overflow: hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.2784409523315!2d74.87647261123647!3d34.13209226059816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1867be1bac5ed%3A0xf3797e715a191672!2sGupt%20Ganga%20-%20Ishber%20Rd%2C%20Srinagar%20190025!5e0!3m2!1sen!2sin!4v1597426161438!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+          ></iframe>
+        </div> -->
+        <div class="col-md-6 text-white order-1 order-md-2">
+          <form>
+            <div class="mb-3">
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                required
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+              />
+            </div>
+
+            <div class="mb-3">
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Subject"
+              />
+            </div>
+
+            <textarea
+              required
+              class="form-control"
+              placeholder="Message"
+              id="floatingTextarea2"
+              style="height: 120px"
+            ></textarea>
+
+            <button type="submit" class="btn btn-outline-warning ms-2 my-3 btn-lg">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Contact form section -->
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <div class="col-md-3 media_link btn m-1" href="#">
+            <div class="row ">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.linkedin.com/in/sameer-rather-a83485156?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BDjsBLPeSkC6mru4Sblh9g%3D%3D" target="_blank"><h3 class="m-0 pt-2 text-white">LinkedIn</h3></a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 media_link btn m-1">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://github.com/destinysam" target="_blank"><h3 class="m-0 pt-2 text-white">Github</h3></a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 media_link btn m-1">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="https://www.instagram.com/destinysam11/" target="_blank"><h3 class="m-0 pt-2 text-white">Instagram</h3></a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-instagram fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 media_link bg-warning btn m-1">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+               <a href="mailto: sams44802@gmail.com" target="_blank"> <h3 class="m-0 pt-2 text-dark">Email</h3></a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Social media section -->
+
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-md-4">
+            <h4>About</h4>
+            <p>
+              Experienced in creating Django based web apps in a full pythonic way.
+              Love to working with pandas, numpy, matplotlib.Automating boring stuff
+              with selenium.Spending free time on web scraping .Deligent and Passionate about writing code in python everytime.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#work-history">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Have a Question?</h4>
+            <ul>
+              <li>
+                <svg
+                  class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                  style="color: #ffffff"
+                  aria-hidden="true"
+                  data-prefix="fas"
+                  data-icon="map-marker-alt"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                  ></path></svg>
+                  <!-- <span class="fas fa-map-marker-alt" style="color:#ffffff;"></span> --><span
+                  class="text"
+                  >&nbsp;&nbsp;Tarigam Kulgam, Kashmir</span
+                >
+              </li>
+              <li>
+                <a href="tel://+916005840594"
+                  ><svg
+                    class="svg-inline--fa fa-phone fa-w-16"
+                    style="color: #ffffff"
+                    aria-hidden="true"
+                    data-prefix="fas"
+                    data-icon="phone"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    data-fa-i2svg=""
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M493.397 24.615l-104-23.997c-11.314-2.611-22.879 3.252-27.456 13.931l-48 111.997a24 24 0 0 0 6.862 28.029l60.617 49.596c-35.973 76.675-98.938 140.508-177.249 177.248l-49.596-60.616a24 24 0 0 0-28.029-6.862l-111.997 48C3.873 366.516-1.994 378.08.618 389.397l23.997 104C27.109 504.204 36.748 512 48 512c256.087 0 464-207.532 464-464 0-11.176-7.714-20.873-18.603-23.385z"
+                    ></path></svg
+                  ><!-- <span class="fas fa-phone" style="color:#ffffff;"></span> --><span
+                    class="text"
+                    >&nbsp;&nbsp;+91-6005840594</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    class="svg-inline--fa fa-envelope fa-w-16"
+                    style="color: #ffffff"
+                    aria-hidden="true"
+                    data-prefix="fas"
+                    data-icon="envelope"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    data-fa-i2svg=""
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    ></path></svg
+                  ><!-- <span class="fas fa-envelope" style="color:#ffffff;"></span> -->
+                  <span class="text"
+                    >&nbsp;&nbsp;sams44802@gmail.com</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container-fluid mt-2 py-3 text-muted text-center footer-section"
+      >
+        <div class="container-fluid">
+          Copyright &copy; 2021 | Developed with
+          <i class="fas fa-heart fs-5" style="color: #ff0000"></i> by<a
+            class="text-warning text-decoration-none"
+            href="mailto: sams44802@gmail.com">
+            Aijaz Wani</a >
+        </>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- particles js library -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
