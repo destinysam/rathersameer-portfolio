@@ -1,0 +1,21 @@
+{
+    "name": "Aijaz Ahmad Wani",
+    "short_name": "Aijaz Ahmad Wani",
+    "theme_color": "#4A90E2",
+    "background_color": "#F7F8F9",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "purpose": "any maskable",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+    
+}
